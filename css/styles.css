@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: NeueMontrealMedium;
+    src: url(../font/PPNeueMontreal-Medium.otf);
+  }
+
+@font-face {
+    font-family: NeueMontrealThin;
+    src: url(../font/PPNeueMontreal-Thin.otf);
+  }
+
+@font-face {
+    font-family: NeueMontrealBook;
+    src: url(../font/PPNeueMontreal-Book.otf);
+  }
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1200px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+a { color: #000000; }
+
+.Title {
+    font-family: NeueMontrealBook;
+  }
+
+header {
+   width: 100%;
+   position: fixed;
+   margin-top: 30px;
+}
+
+.navContainer {
+    backdrop-filter: blur(14px);
+    border-radius: 100px;
+    max-width: fit-content;
+
+}
+
+.navContainer ul {
+    background-color: #e8e5e48c;
+    display: flex;
+    margin: auto;
+    max-width: fit-content;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    padding: 4px;
+}
+
+.navContainer li {
+    border-radius: 100px;
+    padding: 18px 40px 18px 40px;
+    margin: 0;
+    color: black;
+    font-family: NeueMontrealMedium;
+}
+
+li.active {
+    background-color: white;
+}
+
+.navContainer .Profile {
+
+}
+
+.navContainer a {
+    font-size: 16px;
+}
