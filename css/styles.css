@@ -79,7 +79,7 @@ li.active {
 }
 
 .Hero {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -171,3 +171,26 @@ img:hover {
   cursor: pointer;
 }
 
+
+.footerMainContainer {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  font-family: NeueMontrealBook;
+  padding: 20px;
+}
+
+.footerLeftPart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footerRightPart ul{
+  display: flex;
+  gap: 8px;
+}
+.footerRightPart a {
+  font-size: 14px;
+}
